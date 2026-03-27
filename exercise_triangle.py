@@ -16,3 +16,16 @@ def triangle():
         Los lados no forman un triangulo valido
     """
     pass
+
+
+    num1 = float(input())
+    num2 = float(input())
+    num3 = float(input())
+
+    if  num1 + num2 > num3 and num2 + num3 > num1 and num1+ num3 > num2:
+        print("Los lados forman un triangulo valido")
+    else:
+        print("Los lados no forman un triangulo valido")
+
+
+#triangle()
